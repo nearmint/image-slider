@@ -1,0 +1,46 @@
+.wrapper {
+    height: 500px;
+    width: 1200px;
+    border: 10px solid lightgrey;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+
+.image-carousel-slides {
+    /* width: 800px;
+    height: 300px; */
+    /* background-color: lightgrey; */
+
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto 0;
+    /* flex-direction: column; */
+
+
+
+}
+
+.image-carousel-slides div {
+ 
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+#nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
